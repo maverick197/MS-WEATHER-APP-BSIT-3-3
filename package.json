@@ -1,0 +1,11 @@
+{
+  "name": "weather_application_asia_dwight",
+  "version": "1.0.0",
+  "description": "MY WEATHER APPLICATION",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwight Asia",
+  "license": "ISC"
+}

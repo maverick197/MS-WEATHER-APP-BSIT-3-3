@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DA Weather APP</title>
+    <title>MAVERICK Weather APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">DA WEATHER APP</a>
+            <a class="navbar-brand" href="#">MAVERICK WEATHER APP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About this App</a>
+                        <a class="nav-link" href="#">Location</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -33,16 +33,10 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Delhi</a></li>
                             <li><a class="dropdown-item" href="#">Seattle</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+                            <li><a class="dropdown-item" href="#">Hong Kong</a></li>
                             <li><a class="dropdown-item" href="#">Bangalore</a></li>
                         </ul>
 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Usage Guide</a>
-                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -68,9 +62,7 @@
                                 <li>Temperature is <span id="temp"></span></li>
                                 <li>Min Temperature is <span id="min_temp"></span></li>
                                 <li>Max Temperature is <span id="max_temp"></span></li>
-                                
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                         </div>
                     </div>
                 </div>
@@ -87,7 +79,6 @@
                                 <li>Feels Like <span id="feels_like"></span></li>
                                 <li>Humidity is <span id="humidity"></span></li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                         </div>
                     </div>
                 </div>
@@ -105,7 +96,6 @@
                                 <li>Sunrise Time is <span id="sunrise"></span></li>
                                 <li>Sunset Time is <span id="sunset"></span></li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
                         </div>
                     </div>
                 </div>
